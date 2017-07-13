@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+
+
+    <meta charset="utf-8">
+    <title>Tourism Bolvia</title>
+    <link rel="stylesheet" href="BOLIVIA.css">
+
+
+
+</head>
+
+<body>
+    <header>
+        <h1><img src="Bolivia%20website%20title.png" alt = "Bolivia title"></h1>
+    </header>
+
+
+    <nav>
+        <div id="wrapper">
+            <a href="AboutB.html">About</a> &nbsp;
+            <a href="TravelB.html">Travel</a> &nbsp;
+            <a href="MoreB.html">More</a> &nbsp;
+            <a href="ContactB.html">Contact</a> &nbsp;
+            <a href="Enjoy!.html">Enjoy!</a> &nbsp;
+        </div>
+    </nav>
+
+    <main>
+
+
+       
+
+        <h2>A little bit about Bolivia</h2>
+
+        <p>
+            Bolivia, also known as the heart of South America is a small country located in South America.
+            <br> it is surrounded by Argentina, Brazil, Paraguay, and Peru. Bolivia is slightly smaller than the state of Montana.
+            <br> Although Bolivia is known to be one of the most poorest country's in South America, they are the country that exports products the most in all of South America.
+            <br> It is also one of the most Beautiful country's to visit because of its vast heritage and different cultures across each state in the country.
+            <br>
+        </p>
+
+
+        <h2>What makes up Bolivia.</h2>
+
+
+        <p>Bolivia is made out of nine departments.</p>
+
+        <ul>
+            <li>Cochabamba</li>
+            <li>La Paz</li>
+            <li>Santa Cruz</li>
+            <li>Potosi</li>
+            <li>Chuquisaca</li>
+            <li>Beni</li>
+            <li>Pando</li>
+            <li>Tarija</li>
+            <li>Oruro</li>
+        </ul>
+
+
+
+
+        <div id="map" style="width:500px;height:500px;background:yellow"></div>
+
+        <script>
+            function myMap() {   
+                var mapOptions = {       
+                    center: new google.maps.LatLng(-17.379535, -66.161871),
+                          zoom: 10,
+                           mapTypeId: google.maps.MapTypeId.HYBRID   
+                }
+                var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+            }
+
+        </script>
+
+        <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
+
+
+
+
+    </main>
+    <footer>
+        Copyright &copy; 2016 Tourism Bolivia E-mail:
+        <a href="mailto:scott@marzana.com">scott@marzana.com</a>
+    </footer>
+</body>
+
+</html>
